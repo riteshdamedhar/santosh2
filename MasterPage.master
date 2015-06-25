@@ -1,4 +1,4 @@
-﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPage, App_Web_v0vvagmp" %>
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPage, App_Web_hxqxsc3k" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -105,7 +105,7 @@
                     <span class="isw-grid"></span><span class="text">Dashboard</span>
                 </a>
             </li>
-            <li class="openable">
+            <li >
                 <a href="Student_Info.aspx">
                     <span class="isw-list"></span><span class="text">Student Info</span>
                 </a>
@@ -116,7 +116,7 @@
                     <span class="isw-archive"></span><span class="text">Gallary Images</span>                 
                 </a>
             </li>                        
-            <li class="openable">
+            <li>
                 <a href="Add_News.aspx">
                     <span class="isw-chat"></span><span class="text">Add News</span>
                 </a>
@@ -130,7 +130,7 @@
                 </a>
             </li>   
                 
-            <li class="openable">
+            <li>
                 <a href="#">
                     <span class="isw-zoom"></span><span class="text">Other</span>                    
                 </a>
@@ -152,7 +152,7 @@
                     </li>                                                
                 </ul>
             </li>  
-            <li class="openable">
+            <li>
                 <a href="#">
                     <span class="isw-cancel"></span><span class="text">Error pages</span>                    
                 </a>
@@ -194,7 +194,8 @@
                         
             <ul class="buttons">
                 <li>
-                    <a href="LogOut.aspx" class="link_bcPopupList"><span class="icon-user"></span><span class="text">LogOut</span></a>
+                    
+                    <span class="icon-user"></span><span class="link_bcPopupList"><asp:LinkButton ID="LinkButton1" PostBackUrl="~/LogOut.aspx" runat="server">Logout</asp:LinkButton></span>
 
                     <div id="bcPopupList" class="popup">
                         <div class="head clearfix">
